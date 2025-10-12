@@ -6,6 +6,7 @@ import { PingPlugin } from "./plugins/ping";
 import { Punchline } from "./plugins/punchline";
 import { TictactoePlugin } from "./plugins/tictactoe";
 import { Vote } from "./plugins/vote";
+import { Wordle } from "./plugins/wordle";
 
 function main() {
     const bot = new Bot([
@@ -16,6 +17,7 @@ function main() {
         new Punchline(),
         new TictactoePlugin(),
         new Vote(),
+        new Wordle(),
     ]);
     bot.init();
 }
