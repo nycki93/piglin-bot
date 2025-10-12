@@ -6,3 +6,10 @@ working title. options:
 - ⭐ piglin
 - tyGBot
 - jsGBot (probably not)
+
+install:
+
+- npm install
+- npm run discord
+- fill out config.json
+
